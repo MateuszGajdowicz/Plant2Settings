@@ -75,7 +75,7 @@
         if (NewWateringPeriod)
             document.getElementById("p3").textContent = NewWateringPeriod;
 
-        var EmailNotifications = localStorage.getItem("EmailNotifications");
+        var EmailNotifications = localStorage.getItem("EmailNotifications");ant1
         if (EmailNotifications) {
             if (EmailNotifications === "ON") {
                 document.getElementById("OnBox").checked = true;
