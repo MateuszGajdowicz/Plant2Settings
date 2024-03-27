@@ -57,23 +57,23 @@
 
     function SaveOnClick() {
         let NewPlantName = document.getElementById('p1').textContent;
-        localStorage.setItem("NewPlantName", NewPlantName);
+        localStorage.setItem("NewPlantName2", NewPlantName);
         let NewRequiredMoisture = document.getElementById('p2').textContent;
-        localStorage.setItem("NewRequiredMoisture", NewRequiredMoisture);
+        localStorage.setItem("NewRequiredMoisture2", NewRequiredMoisture);
         let NewWateringPeriod = document.getElementById('p3').textContent;
-        localStorage.setItem("NewWateringPeriod", NewWateringPeriod);
+        localStorage.setItem("NewWateringPeriod2", NewWateringPeriod);
     }
 
     window.onload = function() {
-        var NewPlantName = localStorage.getItem("NewPlantName");
+        var NewPlantName = localStorage.getItem("NewPlantName2");
         if (NewPlantName)
-            document.getElementById("p1").textContent = NewPlantName;
-        var NewRequiredMoisture = localStorage.getItem("NewRequiredMoisture");
+            document.getElementById("p1").textContent = NewPlantName2;
+        var NewRequiredMoisture = localStorage.getItem("NewRequiredMoisture2");
         if (NewRequiredMoisture)
-            document.getElementById("p2").textContent = NewRequiredMoisture;
-        var NewWateringPeriod = localStorage.getItem("NewWateringPeriod");
+            document.getElementById("p2").textContent = NewRequiredMoisture2;
+        var NewWateringPeriod = localStorage.getItem("NewWateringPeriod2");
         if (NewWateringPeriod)
-            document.getElementById("p3").textContent = NewWateringPeriod;
+            document.getElementById("p3").textContent = NewWateringPeriod2;
 
         var EmailNotifications = localStorage.getItem("EmailNotifications");ant1
         if (EmailNotifications) {
