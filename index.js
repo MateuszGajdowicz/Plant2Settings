@@ -65,14 +65,14 @@
     }
 
     window.onload = function() {
-        var NewPlantName = localStorage.getItem("NewPlantName2");
-        if (NewPlantName)
+        var NewPlantName2 = localStorage.getItem("NewPlantName2");
+        if (NewPlantName2)
             document.getElementById("p1").textContent = NewPlantName2;
-        var NewRequiredMoisture = localStorage.getItem("NewRequiredMoisture2");
-        if (NewRequiredMoisture)
+        var NewRequiredMoisture2 = localStorage.getItem("NewRequiredMoisture2");
+        if (NewRequiredMoisture2)
             document.getElementById("p2").textContent = NewRequiredMoisture2;
-        var NewWateringPeriod = localStorage.getItem("NewWateringPeriod2");
-        if (NewWateringPeriod)
+        var NewWateringPeriod2 = localStorage.getItem("NewWateringPeriod2");
+        if (NewWateringPeriod2)
             document.getElementById("p3").textContent = NewWateringPeriod2;
 
         var EmailNotifications = localStorage.getItem("EmailNotifications");ant1
